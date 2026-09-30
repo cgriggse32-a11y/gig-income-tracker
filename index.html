@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gig Income Tracker — Free Delivery Driver App</title>
+<meta name="description" content="Free single-page app for delivery drivers: log shifts, tips, miles and expenses. See your real dollars per hour and per mile.">
+<style>
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:#0f1419; color:#e8edf3; line-height:1.6; }
+  .wrap { max-width:560px; margin:0 auto; padding:40px 20px; text-align:center; }
+  .badge { display:inline-block; background:#1a2230; color:#38bdf8; font-size:.75rem; font-weight:700;
+           letter-spacing:.08em; text-transform:uppercase; padding:6px 14px; border-radius:999px; margin-bottom:18px; }
+  h1 { font-size:2rem; line-height:1.25; margin-bottom:12px; }
+  h1 .hl { color:#22c55e; }
+  p.lede { color:#94a3b8; font-size:1.05rem; margin-bottom:24px; }
+  ul { list-style:none; text-align:left; background:#1a2230; border-radius:14px; padding:20px 22px; margin-bottom:28px; }
+  li { padding:8px 0 8px 34px; position:relative; font-size:1rem; }
+  li::before { content:"✓"; position:absolute; left:6px; color:#22c55e; font-weight:800; }
+  .tip-btn { display:inline-block; background:#22c55e; color:#06240f; font-size:1.25rem; font-weight:800;
+             padding:16px 44px; border-radius:14px; text-decoration:none; margin-bottom:12px;
+             box-shadow:0 6px 24px rgba(34,197,94,.35); }
+  .tip-btn:active { transform:scale(.97); }
+  .fine { color:#64748b; font-size:.8rem; margin-bottom:28px; }
+  .also { background:#1a2230; border-radius:14px; padding:18px; font-size:.95rem; color:#94a3b8; }
+  .also strong { color:#e8edf3; }
+  footer { margin-top:32px; color:#475569; font-size:.75rem; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="badge">Free tool for drivers</span>
+    <h1>Know your <span class="hl">real</span> dollars per hour.</h1>
+    <p class="lede">Gig Income Tracker is a free, private app for DoorDash, Walmart Spark,
+      Uber Eats, Amazon Flex and Roadie drivers. Log every shift — see exactly what each
+      app actually pays you.</p>
+    <ul>
+      <li><strong>Log shifts in seconds</strong> — hours, base pay, tips, miles, gas &amp; expenses.</li>
+      <li><strong>True $/hour and $/mile</strong> — after expenses, per platform, so you know which app wins.</li>
+      <li><strong>100% private</strong> — no account, no server, your data never leaves your phone. Export to CSV at tax time.</li>
+    </ul>
+    <a class="tip-btn" href="https://www.paypal.me/cgriggse32">☕ Support / Tip</a>
+    <p class="fine">Tips are voluntary and go directly via PayPal. The app is free either way.</p>
+    <div class="also">
+      <strong>Also coming soon:</strong> the Paycheck Budget Planner Excel workbook —
+      monthly budget, debt payoff and savings goals in one spreadsheet.
+    </div>
+    <footer>Built by a driver, for drivers · Charleston, WV</footer>
+  </div>
+</body>
+</html>

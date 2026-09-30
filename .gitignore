@@ -1,0 +1,18 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Node (if you ever add a build step)
+node_modules/
+npm-debug.log*
+
+# Env / secrets — NEVER commit these
+.env
+.env.*
+*.pem
+*.key
+id_ed25519*
+credentials*
+*secret*
